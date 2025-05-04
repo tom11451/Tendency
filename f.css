@@ -1,0 +1,94 @@
+/* Rectangle 1 */
+
+position: absolute;
+width: 771px;
+height: 435px;
+left: 35px;
+top: -217px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 40px;
+
+
+/* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 467px;
+height: 49px;
+left: 202px;
+top: 119px;
+
+background: #F5F5F5;
+opacity: 0.8;
+border-radius: 40px;
+
+
+/* 输入你的需求 */
+
+position: absolute;
+width: 80px;
+height: 15px;
+left: 217px;
+top: 136px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.4;
+
+
+/* Tendency. */
+
+position: absolute;
+width: 229px;
+height: 50px;
+left: 306px;
+top: -170px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 56px;
+height: 41px;
+left: 691px;
+top: 125px;
+
+background: #302F2F;
+border-radius: 40px;
+
+
+/* Start */
+
+position: absolute;
+width: 33px;
+height: 17px;
+left: 702px;
+top: 137px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #F2F2F2;
+

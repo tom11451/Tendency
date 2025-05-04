@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendency - 数据可视化工具</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="title">Tendency</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" class="search-input" placeholder="输入您想了解的数据趋势...">
+                <button id="start-button" class="start-button">开始</button>
+            </div>
+            
+            <!-- 加载指示器 -->
+            <div id="loading-indicator" class="loading-indicator">
+                <div class="spinner"></div>
+                <p>正在分析您的需求并获取数据...</p>
+            </div>
+            
+            <!-- 错误信息容器 -->
+            <div id="error-container" class="error-container"></div>
+            
+            <!-- 结果容器 -->
+            <div id="result-container" class="result-container">
+                <!-- 图表容器 -->
+                <div id="chart-container" class="chart-container"></div>
+                
+                <!-- 分析结果容器 -->
+                <div id="analysis-container" class="analysis-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
